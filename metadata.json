@@ -1,0 +1,8 @@
+{
+  "name": "Albion Market Hub",
+  "description": "Uma ferramenta avançada para rastreamento de mercado, análise de lucro e monitoramento de itens em tempo real para Albion Online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
