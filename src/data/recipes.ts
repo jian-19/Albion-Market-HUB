@@ -350,5 +350,14 @@ export const REFINE_RECIPES = [
   { id: "T5_PLANKS", name: "Tábua de Cedro (T5)", materials: [{ id: "T5_WOOD", count: 3 }, { id: "T4_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
   { id: "T6_PLANKS", name: "Tábua de Bloqueio (T6)", materials: [{ id: "T6_WOOD", count: 4 }, { id: "T5_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
   { id: "T7_PLANKS", name: "Tábua de Tronco de Carvalho (T7)", materials: [{ id: "T7_WOOD", count: 5 }, { id: "T6_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
-  { id: "T8_PLANKS", name: "Tábua de Tronco de Cedro (T8)", materials: [{ id: "T8_WOOD", count: 5 }, { id: "T7_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" }
+  { id: "T8_PLANKS", name: "Tábua de Tronco de Cedro (T8)", materials: [{ id: "T8_WOOD", count: 5 }, { id: "T7_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
+
+  // REFINED RESOURCES - STONE BLOCKS (Bloco de Pedra)
+  { id: "T2_STONEBLOCK", name: "Bloco de Calcário (T2)", materials: [{ id: "T2_ROCK", count: 1 }], bonusCity: "Bridgewatch", bestSellCity: "Caerleon" },
+  { id: "T3_STONEBLOCK", name: "Bloco de Arenito (T3)", materials: [{ id: "T3_ROCK", count: 2 }, { id: "T2_STONEBLOCK", count: 1 }], bonusCity: "Bridgewatch", bestSellCity: "Caerleon" },
+  { id: "T4_STONEBLOCK", name: "Bloco de Travertino (T4)", materials: [{ id: "T4_ROCK", count: 2 }, { id: "T3_STONEBLOCK", count: 1 }], bonusCity: "Bridgewatch", bestSellCity: "Caerleon" },
+  { id: "T5_STONEBLOCK", name: "Bloco de Granito (T5)", materials: [{ id: "T5_ROCK", count: 3 }, { id: "T4_STONEBLOCK", count: 1 }], bonusCity: "Bridgewatch", bestSellCity: "Caerleon" },
+  { id: "T6_STONEBLOCK", name: "Bloco de Xisto (T6)", materials: [{ id: "T6_ROCK", count: 4 }, { id: "T5_STONEBLOCK", count: 1 }], bonusCity: "Bridgewatch", bestSellCity: "Caerleon" },
+  { id: "T7_STONEBLOCK", name: "Bloco de Basalto (T7)", materials: [{ id: "T7_ROCK", count: 5 }, { id: "T6_STONEBLOCK", count: 1 }], bonusCity: "Bridgewatch", bestSellCity: "Caerleon" },
+  { id: "T8_STONEBLOCK", name: "Bloco de Mármore (T8)", materials: [{ id: "T8_ROCK", count: 5 }, { id: "T7_STONEBLOCK", count: 1 }], bonusCity: "Bridgewatch", bestSellCity: "Caerleon" },
 ];

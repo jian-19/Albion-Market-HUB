@@ -988,4 +988,22 @@ export const POPULAR_ITEMS: AlbionItem[] = [
   { id: "T6_WOOD", name: "Tronco de Bloqueio", localizedName: "Madeira (T6)", tier: 6 },
   { id: "T7_WOOD", name: "Madeira de Meteorito", localizedName: "Madeira (T7)", tier: 7 },
   { id: "T8_WOOD", name: "Madeira de Adamantio", localizedName: "Madeira (T8)", tier: 8 },
+
+  // REFINED RESOURCES - STONE BLOCK (Bloco de Pedra)
+  { id: "T2_STONEBLOCK", name: "Bloco de Calcário", localizedName: "Bloco de Pedra (T2)", tier: 2 },
+  { id: "T3_STONEBLOCK", name: "Bloco de Arenito", localizedName: "Bloco de Pedra (T3)", tier: 3 },
+  { id: "T4_STONEBLOCK", name: "Bloco de Travertino", localizedName: "Bloco de Pedra (T4)", tier: 4 },
+  { id: "T5_STONEBLOCK", name: "Bloco de Granito", localizedName: "Bloco de Pedra (T5)", tier: 5 },
+  { id: "T6_STONEBLOCK", name: "Bloco de Xisto", localizedName: "Bloco de Pedra (T6)", tier: 6 },
+  { id: "T7_STONEBLOCK", name: "Bloco de Basalto", localizedName: "Bloco de Pedra (T7)", tier: 7 },
+  { id: "T8_STONEBLOCK", name: "Bloco de Mármore", localizedName: "Bloco de Pedra (T8)", tier: 8 },
+
+  // RAW RESOURCES - ROCK (Pedra Crua)
+  { id: "T2_ROCK", name: "Calcário", localizedName: "Pedra (T2)", tier: 2 },
+  { id: "T3_ROCK", name: "Arenito", localizedName: "Pedra (T3)", tier: 3 },
+  { id: "T4_ROCK", name: "Travertino", localizedName: "Pedra (T4)", tier: 4 },
+  { id: "T5_ROCK", name: "Granito", localizedName: "Pedra (T5)", tier: 5 },
+  { id: "T6_ROCK", name: "Xisto", localizedName: "Pedra (T6)", tier: 6 },
+  { id: "T7_ROCK", name: "Basalto", localizedName: "Pedra (T7)", tier: 7 },
+  { id: "T8_ROCK", name: "Mármore", localizedName: "Pedra (T8)", tier: 8 },
 ];
