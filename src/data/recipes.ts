@@ -316,27 +316,39 @@ export const CRAFT_RECIPES: CraftRecipe[] = [
 ];
 
 export const REFINE_RECIPES = [
+  // REFINED RESOURCES - METAL (Barra)
+  { id: "T2_METALBAR", name: "Barra de Cobre (T2)", materials: [{ id: "T2_ORE", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
+  { id: "T3_METALBAR", name: "Barra de Bronze (T3)", materials: [{ id: "T3_ORE", count: 2 }, { id: "T2_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
   { id: "T4_METALBAR", name: "Barra de Aço (T4)", materials: [{ id: "T4_ORE", count: 2 }, { id: "T3_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
-  { id: "T5_METALBAR", name: "Barra de Aço de Titânio (T5)", materials: [{ id: "T5_ORE", count: 3 }, { id: "T4_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
-  { id: "T6_METALBAR", name: "Barra de Aço Rúnico (T6)", materials: [{ id: "T6_ORE", count: 4 }, { id: "T5_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
+  { id: "T5_METALBAR", name: "Barra de Titânio (T5)", materials: [{ id: "T5_ORE", count: 3 }, { id: "T4_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
+  { id: "T6_METALBAR", name: "Barra de Runas (T6)", materials: [{ id: "T6_ORE", count: 4 }, { id: "T5_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
   { id: "T7_METALBAR", name: "Barra de Meteorito (T7)", materials: [{ id: "T7_ORE", count: 5 }, { id: "T6_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
   { id: "T8_METALBAR", name: "Barra de Adamantio (T8)", materials: [{ id: "T8_ORE", count: 5 }, { id: "T7_METALBAR", count: 1 }], bonusCity: "Thetford", bestSellCity: "Caerleon" },
   
+  // REFINED RESOURCES - LEATHER (Couro)
+  { id: "T2_LEATHER", name: "Couro Rígido (T2)", materials: [{ id: "T2_HIDE", count: 1 }], bonusCity: "Martlock", bestSellCity: "Caerleon" },
+  { id: "T3_LEATHER", name: "Couro Grosso (T3)", materials: [{ id: "T3_HIDE", count: 2 }, { id: "T2_LEATHER", count: 1 }], bonusCity: "Martlock", bestSellCity: "Caerleon" },
   { id: "T4_LEATHER", name: "Couro Trabalhado (T4)", materials: [{ id: "T4_HIDE", count: 2 }, { id: "T3_LEATHER", count: 1 }], bonusCity: "Martlock", bestSellCity: "Caerleon" },
   { id: "T5_LEATHER", name: "Couro Curado (T5)", materials: [{ id: "T5_HIDE", count: 3 }, { id: "T4_LEATHER", count: 1 }], bonusCity: "Martlock", bestSellCity: "Caerleon" },
   { id: "T6_LEATHER", name: "Couro Reforçado (T6)", materials: [{ id: "T6_HIDE", count: 4 }, { id: "T5_LEATHER", count: 1 }], bonusCity: "Martlock", bestSellCity: "Caerleon" },
   { id: "T7_LEATHER", name: "Couro Endurecido (T7)", materials: [{ id: "T7_HIDE", count: 5 }, { id: "T6_LEATHER", count: 1 }], bonusCity: "Martlock", bestSellCity: "Caerleon" },
   { id: "T8_LEATHER", name: "Couro Primoroso (T8)", materials: [{ id: "T8_HIDE", count: 5 }, { id: "T7_LEATHER", count: 1 }], bonusCity: "Martlock", bestSellCity: "Caerleon" },
 
+  // REFINED RESOURCES - CLOTH (Tecido)
+  { id: "T2_CLOTH", name: "Pano Simples (T2)", materials: [{ id: "T2_FIBER", count: 1 }], bonusCity: "Lymhurst", bestSellCity: "Caerleon" },
+  { id: "T3_CLOTH", name: "Tecido (T3)", materials: [{ id: "T3_FIBER", count: 2 }, { id: "T2_CLOTH", count: 1 }], bonusCity: "Lymhurst", bestSellCity: "Caerleon" },
   { id: "T4_CLOTH", name: "Tecido Limpo (T4)", materials: [{ id: "T4_FIBER", count: 2 }, { id: "T3_CLOTH", count: 1 }], bonusCity: "Lymhurst", bestSellCity: "Caerleon" },
   { id: "T5_CLOTH", name: "Tecido Fino (T5)", materials: [{ id: "T5_FIBER", count: 3 }, { id: "T4_CLOTH", count: 1 }], bonusCity: "Lymhurst", bestSellCity: "Caerleon" },
   { id: "T6_CLOTH", name: "Tecido Primoroso (T6)", materials: [{ id: "T6_FIBER", count: 4 }, { id: "T5_CLOTH", count: 1 }], bonusCity: "Lymhurst", bestSellCity: "Caerleon" },
   { id: "T7_CLOTH", name: "Tecido Magnífico (T7)", materials: [{ id: "T7_FIBER", count: 5 }, { id: "T6_CLOTH", count: 1 }], bonusCity: "Lymhurst", bestSellCity: "Caerleon" },
   { id: "T8_CLOTH", name: "Tecido Divino (T8)", materials: [{ id: "T8_FIBER", count: 5 }, { id: "T7_CLOTH", count: 1 }], bonusCity: "Lymhurst", bestSellCity: "Caerleon" },
 
-  { id: "T4_PLANKS", name: "Tábua (T4)", materials: [{ id: "T4_WOOD", count: 2 }, { id: "T3_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
-  { id: "T5_PLANKS", name: "Tábua (T5)", materials: [{ id: "T5_WOOD", count: 3 }, { id: "T4_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
-  { id: "T6_PLANKS", name: "Tábua (T6)", materials: [{ id: "T6_WOOD", count: 4 }, { id: "T5_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
-  { id: "T7_PLANKS", name: "Tábua (T7)", materials: [{ id: "T7_WOOD", count: 5 }, { id: "T6_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
-  { id: "T8_PLANKS", name: "Tábua (T8)", materials: [{ id: "T8_WOOD", count: 5 }, { id: "T7_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" }
+  // REFINED RESOURCES - PLANKS (Tábua)
+  { id: "T2_PLANKS", name: "Tábua de Bétula (T2)", materials: [{ id: "T2_WOOD", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
+  { id: "T3_PLANKS", name: "Tábua de Castanheira (T3)", materials: [{ id: "T3_WOOD", count: 2 }, { id: "T2_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
+  { id: "T4_PLANKS", name: "Tábua de Carvalho (T4)", materials: [{ id: "T4_WOOD", count: 2 }, { id: "T3_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
+  { id: "T5_PLANKS", name: "Tábua de Cedro (T5)", materials: [{ id: "T5_WOOD", count: 3 }, { id: "T4_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
+  { id: "T6_PLANKS", name: "Tábua de Bloqueio (T6)", materials: [{ id: "T6_WOOD", count: 4 }, { id: "T5_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
+  { id: "T7_PLANKS", name: "Tábua de Tronco de Carvalho (T7)", materials: [{ id: "T7_WOOD", count: 5 }, { id: "T6_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" },
+  { id: "T8_PLANKS", name: "Tábua de Tronco de Cedro (T8)", materials: [{ id: "T8_WOOD", count: 5 }, { id: "T7_PLANKS", count: 1 }], bonusCity: "Fort Sterling", bestSellCity: "Caerleon" }
 ];
