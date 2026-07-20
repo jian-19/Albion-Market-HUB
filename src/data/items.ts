@@ -917,7 +917,8 @@ export const POPULAR_ITEMS: AlbionItem[] = [
   { id: "T7_2H_WYRM", name: "Cajado do Wyrm de Cristal de Grão-mestre", localizedName: "Lightmaw Wyrm (T7)", tier: 7 },
   { id: "T8_2H_WYRM", name: "Cajado do Wyrm de Cristal de Ancião", localizedName: "Lightmaw Wyrm (T8)", tier: 8 },
 
-  // REFINED RESOURCES - LEATHER (Couro)
+// REFINED RESOURCES - LEATHER (Couro)
+  { id: "T2_LEATHER", name: "Couro Rígido", localizedName: "Couro (T2)", tier: 2 },
   { id: "T3_LEATHER", name: "Couro Grosso", localizedName: "Couro (T3)", tier: 3 },
   { id: "T4_LEATHER", name: "Couro Trabalhado", localizedName: "Couro (T4)", tier: 4 },
   { id: "T5_LEATHER", name: "Couro Curado", localizedName: "Couro (T5)", tier: 5 },
@@ -926,6 +927,7 @@ export const POPULAR_ITEMS: AlbionItem[] = [
   { id: "T8_LEATHER", name: "Couro Primoroso", localizedName: "Couro (T8)", tier: 8 },
 
   // REFINED RESOURCES - METAL (Barra)
+  { id: "T2_METALBAR", name: "Barra de Cobre", localizedName: "Barra (T2)", tier: 2 },
   { id: "T3_METALBAR", name: "Barra de Bronze", localizedName: "Barra (T3)", tier: 3 },
   { id: "T4_METALBAR", name: "Barra de Aço", localizedName: "Barra (T4)", tier: 4 },
   { id: "T5_METALBAR", name: "Barra de Titânio", localizedName: "Barra (T5)", tier: 5 },
@@ -934,6 +936,7 @@ export const POPULAR_ITEMS: AlbionItem[] = [
   { id: "T8_METALBAR", name: "Barra de Adamantio", localizedName: "Barra (T8)", tier: 8 },
 
   // REFINED RESOURCES - CLOTH (Tecido)
+  { id: "T2_CLOTH", name: "Pano Simples", localizedName: "Tecido (T2)", tier: 2 },
   { id: "T3_CLOTH", name: "Tecido", localizedName: "Tecido (T3)", tier: 3 },
   { id: "T4_CLOTH", name: "Tecido Limpo", localizedName: "Tecido (T4)", tier: 4 },
   { id: "T5_CLOTH", name: "Tecido Fino", localizedName: "Tecido (T5)", tier: 5 },
@@ -942,32 +945,44 @@ export const POPULAR_ITEMS: AlbionItem[] = [
   { id: "T8_CLOTH", name: "Tecido Divino", localizedName: "Tecido (T8)", tier: 8 },
 
   // REFINED RESOURCES - PLANKS (Tábua)
-  { id: "T3_PLANKS", name: "Tábua", localizedName: "Tábua (T3)", tier: 3 },
+  { id: "T2_PLANKS", name: "Tábua de Bétula", localizedName: "Tábua (T2)", tier: 2 },
+  { id: "T3_PLANKS", name: "Tábua de Castanheira", localizedName: "Tábua (T3)", tier: 3 },
   { id: "T4_PLANKS", name: "Tábua de Carvalho", localizedName: "Tábua (T4)", tier: 4 },
   { id: "T5_PLANKS", name: "Tábua de Cedro", localizedName: "Tábua (T5)", tier: 5 },
   { id: "T6_PLANKS", name: "Tábua de Bloqueio", localizedName: "Tábua (T6)", tier: 6 },
   { id: "T7_PLANKS", name: "Tábua de Tronco de Carvalho", localizedName: "Tábua (T7)", tier: 7 },
   { id: "T8_PLANKS", name: "Tábua de Tronco de Cedro", localizedName: "Tábua (T8)", tier: 8 },
 
-  // RAW RESOURCES
+  // RAW RESOURCES - ORE (Minério)
+  { id: "T2_ORE", name: "Minério de Cobre", localizedName: "Minério (T2)", tier: 2 },
+  { id: "T3_ORE", name: "Minério de Estanho", localizedName: "Minério (T3)", tier: 3 },
   { id: "T4_ORE", name: "Minério de Ferro", localizedName: "Minério (T4)", tier: 4 },
   { id: "T5_ORE", name: "Minério de Titânio", localizedName: "Minério (T5)", tier: 5 },
   { id: "T6_ORE", name: "Minério de Runas", localizedName: "Minério (T6)", tier: 6 },
   { id: "T7_ORE", name: "Minério de Meteorito", localizedName: "Minério (T7)", tier: 7 },
   { id: "T8_ORE", name: "Minério de Adamantio", localizedName: "Minério (T8)", tier: 8 },
-  
+
+  // RAW RESOURCES - HIDE (Pele/Couro Cru)
+  { id: "T2_HIDE", name: "Pele Fina", localizedName: "Pele (T2)", tier: 2 },
+  { id: "T3_HIDE", name: "Pele Média", localizedName: "Pele (T3)", tier: 3 },
   { id: "T4_HIDE", name: "Couro Cru", localizedName: "Pele (T4)", tier: 4 },
   { id: "T5_HIDE", name: "Couro Robusto", localizedName: "Pele (T5)", tier: 5 },
   { id: "T6_HIDE", name: "Couro Endurecido", localizedName: "Pele (T6)", tier: 6 },
   { id: "T7_HIDE", name: "Pele de Meteorito", localizedName: "Pele (T7)", tier: 7 },
   { id: "T8_HIDE", name: "Pele de Adamantio", localizedName: "Pele (T8)", tier: 8 },
 
+  // RAW RESOURCES - FIBER (Fibra)
+  { id: "T2_FIBER", name: "Algodão Cru", localizedName: "Fibra (T2)", tier: 2 },
+  { id: "T3_FIBER", name: "Cânhamo Cru", localizedName: "Fibra (T3)", tier: 3 },
   { id: "T4_FIBER", name: "Algodão", localizedName: "Fibra (T4)", tier: 4 },
   { id: "T5_FIBER", name: "Lino", localizedName: "Fibra (T5)", tier: 5 },
   { id: "T6_FIBER", name: "Cânhamo", localizedName: "Fibra (T6)", tier: 6 },
   { id: "T7_FIBER", name: "Fibra de Meteorito", localizedName: "Fibra (T7)", tier: 7 },
   { id: "T8_FIBER", name: "Fibra de Adamantio", localizedName: "Fibra (T8)", tier: 8 },
 
+  // RAW RESOURCES - WOOD (Madeira)
+  { id: "T2_WOOD", name: "Tronco de Bétula", localizedName: "Madeira (T2)", tier: 2 },
+  { id: "T3_WOOD", name: "Tronco de Castanheira", localizedName: "Madeira (T3)", tier: 3 },
   { id: "T4_WOOD", name: "Tronco de Carvalho", localizedName: "Madeira (T4)", tier: 4 },
   { id: "T5_WOOD", name: "Tronco de Cedro", localizedName: "Madeira (T5)", tier: 5 },
   { id: "T6_WOOD", name: "Tronco de Bloqueio", localizedName: "Madeira (T6)", tier: 6 },
