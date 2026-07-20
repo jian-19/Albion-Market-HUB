@@ -166,6 +166,7 @@ export default function App() {
         <p className="text-xs text-gray-500 font-medium">
           © {new Date().getFullYear()} Albion Market Hub. Este é um projeto de fã e não é afiliado à Sandbox Interactive GmbH.
         </p>
+        <p className="text-xs text-gray-500 font-medium">Desenvolvido por Jian Rodrigues Ferreira.</p>
       </footer>
     </div>
   );
